@@ -1,24 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+
+import Chai from "./Chai"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Chai />
+    <h1>chai aur react | Nishant Khandelwal
+      In this file I have studied about how to build basicreact project and also learn how terminal works 
+    </h1>
+    </>
   );
 }
 
